@@ -15,7 +15,9 @@ namespace ConversionExample
             int sayi = Convert.ToInt32(Console.ReadLine());
             int sonuc = sayi * sayi;
             Console.WriteLine($"{sonuc}");
+            
             Console.ReadLine();
+
         }
     }
 }
