@@ -10,7 +10,12 @@ namespace ConversionExample
     {
         static void Main(string[] args)
         {
-
+            //ekrandan kullanıcıdan sayı alıp bu sayının karesini hesaplayan programı yazınız.
+            Console.WriteLine("sayı giriniz");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            int sonuc = sayi * sayi;
+            Console.WriteLine($"{sonuc}");
+            Console.ReadLine();
         }
     }
 }
